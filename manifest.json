@@ -15,18 +15,18 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "storage"
+    "storage",
+    "clipboardWrite"
   ],
 
   "browser_action": {
     "default_icon": "resource/image/icon.png",
-    "default_title": "Product Import",
-    "default_popup": "resource/html/popup.html"
+    "default_title": "Product Import"
   },
 
   "web_accessible_resources": [
     "*.png",
-    "resources/js/*.js"
+    "resource/js/jquery-3.2.1.min.js"
   ],
 
   "content_scripts": [{
